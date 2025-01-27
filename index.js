@@ -191,7 +191,7 @@ function sortLowToHighPricesStocks(stock1, stock2){
 }
 
 // function to sort the stocks by high to low price
-function sortHighToLowPricesStocks(){
+function sortHighToLowPricesStocks(stock1, stock2){
   return stock2.price - stock1.price;
 }
 
